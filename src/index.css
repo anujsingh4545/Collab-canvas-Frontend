@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-[0.9rem] tracking-wider max-w-[100rem]  min-w-[80rem] mx-auto;
+  }
+
+  html {
+    font-family: "Open Sans", system-ui, sans-serif;
+    @apply tracking-wide;
+  }
+}
