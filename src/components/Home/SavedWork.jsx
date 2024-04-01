@@ -19,7 +19,7 @@ const SavedWork = () => {
 
       await axios
         .post(
-          "http://localhost:3000/api/v1/user/getFile",
+          "https://collab-canvas-backend.vercel.app/api/v1/user/getFile",
           {},
           {
             headers: {

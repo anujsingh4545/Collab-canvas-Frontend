@@ -33,7 +33,7 @@ const SaveFile = ({image, setcallsave, WriteData, DrawData}) => {
       formData.append("drawData", DrawData);
 
       await axios
-        .post("http://localhost:3000/api/v1/room/saveFile", formData, {
+        .post("https://collab-canvas-backend.vercel.app/api/v1/room/saveFile", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },

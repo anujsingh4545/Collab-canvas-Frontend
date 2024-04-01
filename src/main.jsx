@@ -6,7 +6,7 @@ import {BrowserRouter} from "react-router-dom";
 import {RecoilRoot} from "recoil";
 import {io} from "socket.io-client";
 
-const socket = io("http://localhost:3000");
+const socket = io("https://collab-canvas-backend.vercel.app");
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <RecoilRoot>

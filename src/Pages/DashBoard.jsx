@@ -36,7 +36,7 @@ const DashBoard = ({socket}) => {
       } else {
         await axios
           .post(
-            "http://localhost:3000/api/v1/room/getdata",
+            "https://collab-canvas-backend.vercel.app/api/v1/room/getdata",
             {roomId: roomId},
             {
               headers: {

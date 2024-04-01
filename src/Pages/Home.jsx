@@ -22,7 +22,7 @@ const Home = ({logout}) => {
   const createRoom = async () => {
     setLoading(true);
     await axios
-      .post("http://localhost:3000/api/v1/room/createId", {})
+      .post("https://collab-canvas-backend.vercel.app/api/v1/room/createId", {})
       .then((response) => {
         if (response.data.success) {
           setLoading(false);
@@ -58,7 +58,7 @@ const Home = ({logout}) => {
           console.log(userData);
 
           await axios
-            .post("http://localhost:3000/api/v1/user/login", userData)
+            .post("https://collab-canvas-backend.vercel.app/api/v1/user/login", userData)
             .then((response) => {
               if (response.data.success) {
                 setUser(response.data.user);
