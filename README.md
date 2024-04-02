@@ -16,7 +16,7 @@
 
 # Video Snapshots
 
-## 1. Ui of Project
+## 1. Ui of Project and room creation
 https://github.com/anujsingh4545/Collab-canvas-Frontend/assets/76861751/20852bef-5f16-4087-b99b-f19928c9e7ce
 
 ## 2. Real time Communication Preview (Socket.io)
