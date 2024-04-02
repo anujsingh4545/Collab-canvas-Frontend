@@ -1,9 +1,10 @@
 # Features
 1. Multiple users can co-create and write together.
 2. Real time communication (Socket.io).
-3. Anonymous sharing.
-4. Highly interactive UI.
-5. Personalized User Files.
+3. Romm Creation for collabs.
+4. Anonymous sharing.
+5. Highly interactive UI.
+6. Personalized User Files.
 
 # Snapshots
 <img width="960" alt="image" src="https://github.com/anujsingh4545/Collab-canvas-Frontend/assets/76861751/91fa4242-204b-4ca4-98d5-f532a1454caf">
